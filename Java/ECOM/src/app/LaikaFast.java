@@ -142,7 +142,7 @@ public class LaikaFast {
 							for (Produto item : carrinho) {
 								System.out.println("\n\t\t\t│ Cod. "+item.getCodigo() + "\t\tProduto: " + item.getNome() + "\t\tEm estoque: " +
 							+ item.getValor() + "\tValor: R$" + (item.getEstoque() * item.getValor())+"\t            │");
-								System.out.println("\n\t\t\t│ 📦 Quantidade selecionada:"+auxQtde+"\t                                                                                    │"+"\n");
+								System.out.println("\n\t\t\t│ 📦 Quantidade selecionada:"+item.getEstoque()+"\t                                                                                    │"+"\n");
 								valorTotal += (item.getValor() * item.getEstoque());
 							}
 							titulo.carrinhoValor();

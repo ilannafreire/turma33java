@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.org.generation</groupId>
-	<artifactId>blogpessoal</artifactId>
+	<artifactId>gamestore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>blogpessoal</name>
-	<description>Blog Pessoal</description>
+	<name>gamestore</name>
+	<description></description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>

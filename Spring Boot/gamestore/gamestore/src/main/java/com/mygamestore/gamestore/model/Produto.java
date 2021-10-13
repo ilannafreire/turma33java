@@ -53,6 +53,17 @@ public class Produto {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
+
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
+	
+	
 }
 
 

@@ -21,7 +21,7 @@ public class Produto {
 
 	@NotNull
 	@Size(min = 5, max = 100)
-	private String name;
+	private String nome;
 
 	@NotNull
 	private double preco;
@@ -38,12 +38,12 @@ public class Produto {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public double getPreco() {
@@ -62,8 +62,4 @@ public class Produto {
 		this.categoria = categoria;
 	}
 
-	
-	
 }
-
-

@@ -21,6 +21,8 @@ import com.mygamestore.gamestore.service.UsuarioService;
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UsuarioController {
 	
+	
+	
 	@Autowired
 	private UsuarioService usuarioService;
 	
